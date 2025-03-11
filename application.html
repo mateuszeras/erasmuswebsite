@@ -71,14 +71,13 @@
 		border: solid;
 	}
 	.tekstdiv{
-		width: 70vwpx;
+		width: 800px;
 		height: 200px;
 		word-break: break-word;
 		border-radius: 4px;
 	}
 	.tekstindiv{
-		padding: 4px;
-		margin: 9px;
+
 		font-size: 21px;
 		color: 515151;
 	}
@@ -107,17 +106,17 @@
 	*{
 	 font-family: 	Verdana;
 	}
-	@media (max-width: 700px) {
+	@media (max-width: 800px) {
 		.menudiv {
 			width: 95.92vw;
 		}
-		.logotekst{
+		.logotekst1{
 			font-size: 20px;
 		}
 		h2{
 			font-size: 12px;
 		}
-		.logoimag{
+		.logoimag1{
 			width: 50px;
 			height: 29px;
 			margin-bottom: 9px;
@@ -127,10 +126,8 @@
 			font-size: 12px;	
 		}
 		.tekstindiv{
-
 			width: 82vw;
 			font-size: 10.2px;
-
 		}
 		.menu{
 			right: 0.2%;
@@ -151,11 +148,8 @@
 			margin-left: 4px;
 		}
 		.tekstdiv{
-			width: 222px;	
-			display: flex;
-  			align-items: center;
-  			min-height: 100vh;
-  			flex-direction: column;		
+			width: 70vw;
+  			
 		}
 		.erasmusimg{
 			width: 200px;
@@ -168,6 +162,7 @@
 		.content{
 			margin-left: 0px;
 			height: 100vw;
+			align-items: center;
 		}
 		.button{
 			margin-top: 9px;
@@ -182,6 +177,7 @@
 			font-size: 20px;
 		}
 	}
+	
  </style>
   <style>
 	.menudivs{
@@ -223,13 +219,107 @@
 			font-size: 0.1m;
 			padding: 9px;
 			left: 0;
+			color: white;
 		background-color: 08325A;
 		border: none;
 	}
 	.source1{
 		text-decoration: none;
+		color: white;
 	}
-	@media (max-width: 700px) {
+	@media (max-width: 800px) {
+		.logotekst1{
+			margin-top: 40px;
+			font-size: 19.2px;
+		}
+		.steckbrief{
+			margin-top: 19vw;
+		}
+		.logoimag1{
+			height: 22px;
+			margin-top: 42px;
+		}
+		.space1{
+			width: 25.2vw;
+		}
+		.tekstindiv{
+			width: 70vw;
+		}
+		.tekstdiv{
+  			width: 70vw;
+		}
+		.menudiv1 {
+			width: 95.92vw;
+		}
+		.logotekst1{
+			margin-top: 40px;
+			font-size: 19.2px;
+		}
+		
+		.logoimag1{
+			width: 50px;
+			height: 29px;
+			margin-bottom: 9px;
+	
+		}
+		.menu1{
+			right: 0.2%;
+			width: 90.92vw;
+			margin-right: 9px;
+		}
+		
+		
+	}
+ </style>
+ <style>
+	.menudivs{
+		background-color: #08325A;
+		width: 100vw;
+		height: 100.2px;
+		position: fixed;
+    top: 0;
+	display: flex;
+    left: 0;
+	}
+	.logotekst1{
+		color: white;
+		margin-left: 22.2px;
+		margin-top: 25px;
+		font-size: auto;
+	}
+	.logoimag1{
+		margin-left: 1vw;
+		margin-top: 25px;
+		height: 40px;
+	}
+	.space1{
+		width: 65.2vw;
+	}
+	.menubutn1{
+		margin-left: 100px;
+		
+	}
+	.menu1{
+		display: none; 
+		font-family: sans-serif;
+		width: 97.48vw;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            padding: 10px;
+            position: fixed;
+            top: 100.2px; /* Adjust as needed */
+			font-size: 0.1m;
+			padding: 9px;
+			left: 0;
+			color: white;
+		background-color: 08325A;
+		border: none;
+	}
+	.source1{
+		text-decoration: none;
+		color: white;
+	}
+	@media (max-width: 800px) {
 		.logotekst1{
 			margin-top: 40px;
 			font-size: 19.2px;
@@ -241,9 +331,21 @@
 		.space1{
 			width: 25.2vw;
 		}
-		.steckbrief{
-			margin-top: 109px;
+	
+	}
+	@media (max-width: 800px) {
+		.logotekst1{
+			margin-top: 40px;
+			font-size: 19.2px;
 		}
+		.logoimag1{
+			height: 22px;
+			margin-top: 42px;
+		}
+		.space1{
+			width: 25.2vw;
+		}
+	
 	}
  </style>
 </head>
@@ -277,12 +379,19 @@
 	<img class="steckbrief" src="steckbrief.png">
 	<br>
 	<br>
+</center>
+<center>
 	<div class="tekstdiv">
-	<h6 class="tekstindiv">
-	   If you want to join the Erasmus project you need to write down your motivation and fill your profile. You can find the profile sheet on the website. The motivation sheet has to be written in English and must be more or less one page. Don't forget to hand it to the Erasmus team in time. You don't need anything else. If you have more questions ask the Erasmus team in our school or write them.
-	</h6>
+	
+		<h6 class="tekstindiv">
+			If you want to join the Erasmus project you need to write down your motivation and fill your profile. You can find the profile sheet on the website. The motivation sheet has to be written in English and must be more or less one page. Don't forget to hand it to the Erasmus team in time. You don't need anything else. If you have more questions ask the Erasmus team in our school or write them.
+		 </h6>
+	
+	
+
 	 <br>
 	 <br>
+	 <center>
 	<h6 class="tekstindiv2">
 	    Contacts:
 		<button onclick="ShowEmailAddress()" class="button">click to show email addresses</button>
@@ -290,10 +399,12 @@
 		 <h6 class="tekstindiv1" id="htext">
 		
 	 </h6>
+	</center>
 	</div>
+</center>
 	</div>
 	<div class="addictionalspace"></div>
-	</center>
+	
 	<br>
 	<script src="script.js"></script>
 	<script>
